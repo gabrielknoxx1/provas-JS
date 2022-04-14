@@ -1,0 +1,1 @@
+"Em uma linguagem de tipagem fraca faz com que as variáveis declaradas tenham seus valores alterados no decorrer do projeto, podendo receber valores de dados diferentes."

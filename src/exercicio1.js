@@ -1,0 +1,1 @@
+"É uma estrutura que tem como base organizar e administrar uma série de dados para fazer com que todos os dados inseridos fiquem de uma maneira mais organizada, podendo definir e armazenar de inúmeras maneiras, como uma fila, lista, ou por ordem de entrada."
