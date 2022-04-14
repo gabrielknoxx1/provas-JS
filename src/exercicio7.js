@@ -4,4 +4,8 @@ const roupas = {
   tamanho: G,
   cor: preto,
 };
+
+// destructing seria pra pegar uma propriedade do object, por exemplo:
+const { tipo } = roupas;
+
 console.log(roupas);
