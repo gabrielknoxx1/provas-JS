@@ -27,3 +27,5 @@
 7a- Extraia uma propriedade desse objeto usando destructuring
 
 8 - Declare uma função de soma e exiba o resultado no console
+
+a
