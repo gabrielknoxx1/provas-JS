@@ -1,7 +1,7 @@
-const nota1 = 10; // uma variavel
-const nota2 = 10; // uma variavel
+const nota1 = 10;
+const nota2 = 10;
 
-const media = (nota1 + nota2) / 2; // variavel resultado
+const media = (nota1 + nota2) / 2;
 
 if (media == 10) {
   console.log("Aprovado com Distinção!!");
@@ -10,7 +10,3 @@ if (media == 10) {
 } else {
   console.log("Reprovado!");
 }
-
-// if se for isso
-// else if se nao ser vai ser outra coisa
-// else se nao é

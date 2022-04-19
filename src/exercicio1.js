@@ -24,7 +24,3 @@ switch (input) {
   default:
     console.log("Consoante.");
 }
-
-// case a letra seja maisculo ou minusculo vai ser vogal.
-// após a comparação ele para a função.
-// se nenhuma letra for A, E, I, O, U, vai ser consoante
