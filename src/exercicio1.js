@@ -1,2 +1,15 @@
-"1) Uma estrutura de dados é uma coleção de dados que visa organizar e estruturar seus dados a partir de um tipo de lista "
+let texto = 'j'
 
+if (texto == 'a') {
+  console.log("A letra digitada é uma vogal")
+} else if (texto == 'e') {
+  console.log("A letra digitada é uma vogal")
+} else if (texto == 'i') {
+  console.log("A letra digitada é uma vogal")
+} else if (texto == 'o') {
+  console.log("A letra digitada é uma vogal")
+} else if (texto == 'u') {
+  console.log("A letra digitada é uma vogal")
+} else {
+  console.log("A letra digitada é uma consoante")
+}

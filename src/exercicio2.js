@@ -1,5 +1,12 @@
-" var : pode ter seu valor declarado novamente, pode ser declarado sem a necessidade de um inicializador e tem um escopo global, assim permitindo a busca por fora do escopo "
+let nota1 = 3
+let nota2 = 5
+let media = (nota1 + nota2) / 2
 
-" let : não pode ter duas variáveis com o mesmo identificador dentro de um escopo, bloqueia a busca da mesma por fora do escopo"
 
-" const : não pode ter seu valor reatribuido, necessita de um inicializador antes da mesma ser declarada, possui um escopo de bloco, não pode ter seu valor atualizado ou declarado novamente"
+if (media == 10) {
+  console.log("Aprovado com distinção")
+} else if (media >= 7) {
+  console.log("Aprovado")
+} else {
+  console.log("reprovado")
+}
