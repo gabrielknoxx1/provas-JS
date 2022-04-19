@@ -1,0 +1,1 @@
+" A tipagem fraca pode ocorrer por intervenção no valor da variável sem intenção do programador, isso é algo que ocorre no javascript ao usar var por exemplo "
