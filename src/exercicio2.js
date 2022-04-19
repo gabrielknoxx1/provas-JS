@@ -1,33 +1,16 @@
-// const imprimirNotas = function (n1, n2) {
-//   const media = n1 + n2 / 2
-//   if (n1, n2 >= 7) {
-//     console.log("Aprovado!");
-//   } else {
-//     console.log("Reprovado!");
-//   }
-//   if (n1, n2 == 10) {
-//     console.log("Aprovado com Distinção.");
-//   }
-// };
-// imprimirNotas(10);
+const nota1 = 10; // uma variavel
+const nota2 = 10; // uma variavel
 
-// const imprimirNotas = function (n1, n2) {
-//   // const soma = n1 + n2 / 2;
-//   const soma = (n1 + n2) / 2;
+const media = (nota1 + nota2) / 2; // variavel resultado
 
-//   if (total >= 7) {
-//     console.log("Aprovado!");
-//   } else if (total < 7) {
-//     console.log("Reprovado");
-//   }
-//   if (total == 10) {
-//     console.log("Aprovado com Distinção");
-//   }
-// };
+if (media == 10) {
+  console.log("Aprovado com Distinção!!");
+} else if (media >= 7) {
+  console.log("Aprovado!");
+} else {
+  console.log("Reprovado!");
+}
 
-const notaMedia = function (nota1, nota2) {
-  const nota1 = 0;
-  const nota2 = 0;
-const soma = (nota1 + nota2) / 2
-if()
-};
+// if se for isso
+// else if se nao ser vai ser outra coisa
+// else se nao é
