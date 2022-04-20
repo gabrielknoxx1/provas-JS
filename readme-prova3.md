@@ -13,7 +13,7 @@
    c. realiza a média
    d. exibe no console
    3.Escreva uma função que recebe um número e retorna se o mesmo é uma numero par , impar
-   4.Escreva uma função que recebe um número e retorna se o mesmo é uma numero primo
+   4.Escreva uma função que recebe um número e retorna quantos por cento esse numero representa perante ao numero 1000.
    5.Escreva uma função uma função que recebe como parametro
    a. nome
    b. sobrenome
