@@ -1,12 +1,6 @@
-let primiraNota = parseFloat(prompt("Digite sua primeira nota: "));
-let segundaNota = parseFloat(prompt("Digite sua segunda nota: "));
-
-let media = (primiraNota + segundaNota) / 2;
-
-if (media == 10) {
-  alert("Aprovado com Distinção!")
-} else if (media >= 7) {
-  alert("Aprovado!")
-} else {
-  alert("Reprovado!")
+const arrowFunction = (numero1, numero2) => {
+  console.log(`Soma dos números: ${numero1 + numero2}.`)
+  console.log(`Média dos números: ${(numero1 + numero2) / 2}.`)
 }
+
+arrowFunction(20, 30)
