@@ -14,3 +14,4 @@
    c. realize um destructuring desse objeto e exiba no console
 4. declare um objeto e converta esse objeto em um array e exiba no console
 5. declare um objeto e converta esse objeto em uma string e exiba no console
+6. declare uma funcao que recebe um objeto por parametro e retorna uma propriedade desse objeto
