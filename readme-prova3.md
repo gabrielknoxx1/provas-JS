@@ -12,12 +12,12 @@
    b. realiza uma soma entre eles
    c. realiza a média
    d. exibe no console
-   3.Escreva uma função que recebe um número e retorna se o mesmo é uma numero par , impar
-   4.Escreva uma função que recebe um número e retorna se o mesmo é uma numero primo
-   5.Escreva uma função uma função que recebe como parametro
+3. Escreva uma função que recebe um número e retorna se o mesmo é uma numero par, impar
+4. Escreva uma função que recebe um número e retorna quantos por cento esse numero representa perante ao numero 1000.
+5. Escreva uma função que recebe como parametro
    a. nome
    b. sobrenome
    c. idade
    d. nacionalidade
    e. retorne os parametros como um objeto
-3. Escreva uma função que retorno o dia da semana
+6. Escreva uma função que retorno o dia da semana
