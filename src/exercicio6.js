@@ -1,4 +1,4 @@
 function data() {
-  console.log(`Hoje é Quarta-feira!`)
+  console.log(new Date().toLocaleString('pt-br', { weekday: 'long' }))
 }
 data()
