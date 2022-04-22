@@ -1,5 +1,5 @@
-const imprimirMensagem = function (msg) {
-  console.log(msg);
-};
+function exibirMensagem() {
+  console.log("Hello World.")
+}
 
-imprimirMensagem("Salve");
+exibirMensagem()
