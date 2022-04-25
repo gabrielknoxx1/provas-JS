@@ -1,0 +1,1 @@
+// Array faz parte dos objetos globais da linguagem e é utilizado para armazenar uma coleção de elementos em uma única variável. a estrutura de dados que tem uma índice numérico e um elemento, qualquer tipo primitivo de dados, um objeto ou, até mesmo, um outro array.
