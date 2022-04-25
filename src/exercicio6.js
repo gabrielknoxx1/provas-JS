@@ -1,5 +1,4 @@
-function semana(){
-  let semana = ["Domingo","Segunda","Terça","Quarta","Quinta","Sexta","Sábado"]
+function semana() {
   let dia = new Date()
 }
 
