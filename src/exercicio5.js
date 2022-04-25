@@ -1,10 +1,4 @@
-function factory(nome, sobrenome, idade, nacionalidade) {
-  return {
-    nome,
-    sobrenome,
-    idade,
-    nacionalidade
-  }
-}
-
-console.log(factory("Pedro", "Lopes", 21, "Brasileiro"))
+const limao = { sabor: "azedo", cor: "verde", quantidade: 43 }
+const texto = JSON.stringify(limao)
+console.log(limao)
+console.log(texto)

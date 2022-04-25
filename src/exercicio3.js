@@ -1,9 +1,16 @@
-function parImpar(numero) {
-  if (numero % 2 == 0) {
-    console.log(`O número ${numero} é par.`)
-  } else {
-    console.log(`O número ${numero} é ímpar.`)
+const pessoa = {
+  nome: 'Pedro',
+  idade: 21,
+  peso: 75.5,
+  endereco: {
+    logradouro: 'Rua dos Bobos',
+    numero: 0
   }
 }
+console.log(pessoa)
 
-parImpar(2336)
+pessoa.nome = "João"
+console.log(pessoa)
+
+const { endereco: { logradouro, numero } } = pessoa
+console.log(logradouro, numero)

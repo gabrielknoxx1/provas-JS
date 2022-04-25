@@ -1,4 +1,12 @@
-function data() {
-  console.log(new Date().toLocaleString('pt-br', { weekday: 'long' }))
+function carro(modelo, anoLancamento, marca) {
+  return {
+    modelo,
+    anoLancamento,
+    marca
+  }
 }
-data()
+
+const primeiroCarro = carro('hibrido', 2020, 'Volvo')
+const segundoCarro = carro('elétrico', 2018, 'Tesla')
+console.log(primeiroCarro.modelo)
+console.log(segundoCarro.marca)
