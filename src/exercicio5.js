@@ -1,4 +1,4 @@
-const limao = { sabor: "azedo", cor: "verde", quantidade: 43 }
-const texto = JSON.stringify(limao)
-console.log(limao)
-console.log(texto)
+const comidas = `Batata, coxinha`
+const novoArray = comidas.split(',')
+
+console.log(novoArray)

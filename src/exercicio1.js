@@ -1,1 +1,1 @@
-"Objetos é uma coleção dinâmica de pares chave/ valor"
+`Array é um objeto especial com características próprias, só q invés de organizar seus atributos a partir de "{}", ele organiza através de índice começando em [0]`

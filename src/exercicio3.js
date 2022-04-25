@@ -1,16 +1,11 @@
-const pessoa = {
-  nome: 'Pedro',
-  idade: 21,
-  peso: 75.5,
-  endereco: {
-    logradouro: 'Rua dos Bobos',
-    numero: 0
-  }
-}
-console.log(pessoa)
+const times = ["São Paulo", "Palmeiras", "Santos"]
+console.log(times)
 
-pessoa.nome = "João"
-console.log(pessoa)
+times.unshift("Corinthians")
+console.log(times)
 
-const { endereco: { logradouro, numero } } = pessoa
-console.log(logradouro, numero)
+times.push("Vasco")
+console.log(times)
+
+times.splice(2, 1, "Guarani")
+console.log(times)
