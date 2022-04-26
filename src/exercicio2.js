@@ -1,0 +1,1 @@
+// promis, uma promessa, usado quando temos um processamento assíncrono,por exemplo: ser resolvida, a promessa ser cumprida ou rejeitada.
