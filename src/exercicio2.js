@@ -1,4 +1,2 @@
-"Um objeto pode ser criado da seguinte maneira:"
-//usando notação literal
-const obj1 = {}
-console.log(obj1)
+"um array pode ser criado da seguinte maneira:"
+alunos = ['Pedro', 'Pierre', 'Gabriel']

@@ -1,1 +1,1 @@
-"Um objeto é uma coleção de dados e funcionalidades, que possuem propriedades e variáveis"
+"o array é uma estrutura de dados que contém um indíce numérico e um elemento"
