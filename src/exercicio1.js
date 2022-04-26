@@ -1,5 +1,1 @@
-function Mensagem() {
-    console.log("Isso é uma mensagem no console.")
-  }
-  
-  Mensagem()
+"Um objeto é uma coleção de dados e funcionalidades, que possuem propriedades e variáveis"

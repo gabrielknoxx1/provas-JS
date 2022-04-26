@@ -1,6 +1,8 @@
-function dados(nome,sobrenome,idade,nacionalidade){
-return{
-    nome,sobrenome,idade,nacionalidade
-}   
+let materiais = {
+    cadeira: 'plastico',
+    mesa: 'madeira',
+    cama: 'ferro'
 }
-console.log(dados("Pierre","Souza",22,"Brasileiro"))
+let nomes = JSON.stringify(materiais)
+console.log(materiais)
+console.log(nomes)

@@ -1,6 +1,4 @@
-let arrowFunc = (num1, num2) => {
-  console.log(`A soma dos valores: ${num1 + num2}`);
-  console.log(`A media dos valores é ${(num1 + num2) / 2}`);
-};
-
-arrowFunc(10 , 5);
+"Um objeto pode ser criado da seguinte maneira:"
+//usando notação literal
+const obj1 = {}
+console.log(obj1)
