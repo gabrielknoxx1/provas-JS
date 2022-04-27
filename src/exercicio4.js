@@ -1,28 +1,13 @@
-const numeros = [2, 32, 54, 12, 09, 19, 80]
+function timer(time = 1000) {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(), time)
+  })
+}
 
-numeros.sort(function (a, b) {
-  if (a > b) {
-    return 1
-  } else if (a < b) {
-    return -1
-  } else {
-    return 0
-  }
+async function execute() {
+  await timer(3000)
+  console.log(`Retorno do await depois de 3s`)
 
-})
-console.log(numeros)
+}
 
-numeros.sort(function (c, d) {
-  if (d < c) {
-    return -1
-  } else if (d > c) {
-    return 1
-  } else {
-    return 0
-  }
-})
-console.log(numeros)
-
-const soma = (total, valor) => total + valor
-const nums = [2, 32, 54, 12, 09, 19, 80]
-console.log(nums.reduce(soma))
+execute()

@@ -1,2 +1,2 @@
-`Uma das maneiras de se criar um array é atraves da notação literal "[]".
-Por ser um objeto especial ele também pode ser criado usando a função construtora "new Array".`
+`Promise é um objeto usado para processamento assíncrono. Um Promise (de "promessa"
+representa um valor que pode estar disponível agora, no futuro ou nunca.`

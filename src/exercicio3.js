@@ -1,11 +1,10 @@
-const times = ["São Paulo", "Palmeiras", "Santos"]
-console.log(times)
+const timeout = (duration) => {
+  return new Promise((resolve) => {
+    setTimeout(resolve, duration)
+  })
+}
 
-times.unshift("Corinthians")
-console.log(times)
-
-times.push("Vasco")
-console.log(times)
-
-times.splice(2, 1, "Guarani")
-console.log(times)
+timeout(2000)
+  .then(function () { // executa o bloco após 2 segundos
+    console.log('Passou 2 segundos.')
+  })

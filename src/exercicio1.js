@@ -1,1 +1,3 @@
-`Array é um objeto especial com características próprias, só q invés de organizar seus atributos a partir de "{}", ele organiza através de índice começando em [0]`
+`Uma função callback é uma função passada a outra função como argumento, que é então
+ invocado dentro da função externa para completar algum tipo de rotina ou ação.
+Sendo chamada de volta retornando um valor.`
