@@ -1,16 +1,34 @@
-"A)"
-let numbers = [2, 32, 54, 12, 09, 19, 80];
-numbers.sort((a, b) => a - b)
-console.log(numbers)
-"B)"
-let numbers1 = [2, 32, 54, 12, 09, 19, 80]
-numbers1.sort((a, b) => b - a)
-console.log(numbers1)
-"C)"
-let numbers2 = [2, 32, 54, 12, 09, 19, 80]
-let soma = 0
+const http = require('http')
 
-for (let i = 0; i < numbers2.length; i++) {
-  soma += numbers2[i]
+const getTurma = letra => {
+  const url = `http://files.cod3r.com.br/curso-js/turma${letra}.json`
+  return new Promise((resolve, reject) => {
+    http.get(url, res => {
+      let resultado = ''
+
+      res.on('data', dados => {
+        resultado += dados
+      })
+
+      res.on('end', () => {
+        try {
+          resolve(JSON.parse(resultado))
+        } catch (e) {
+          reject(e)
+        }
+      })
+    })
+  })
 }
-console.log(soma)
+
+
+let obterAlunos = async () => {
+  const ta = await getTurma('A')
+  const tb = await getTurma('B')
+  const tc = await getTurma('C')
+  return [].concat(ta, tb, tc)
+}
+
+obterAlunos()
+  .then(alunos => alunos.map(a => a.nome))
+  .then(nomes => console.log(nomes))

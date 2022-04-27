@@ -1,2 +1,1 @@
-"um array pode ser criado da seguinte maneira:"
-alunos = ['Pedro', 'Pierre', 'Gabriel']
+"Promise é uma classe que permita a construção de uma função com processamento assíncrono e representa um valor  que poderá estar disponível no futuro"

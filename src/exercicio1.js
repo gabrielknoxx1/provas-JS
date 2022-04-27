@@ -1,1 +1,1 @@
-"o array é uma estrutura de dados que contém um indíce numérico e um elemento"
+"callback é uma função que pode ser passada dentro de outra função como argumento e também invoca uma função para executar alguma ação e retornar um valor"
